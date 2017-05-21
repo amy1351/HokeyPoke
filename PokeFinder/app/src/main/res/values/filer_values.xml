@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_radius">100000</integer>
+    <string name="max_radius_string">100000</string>
+    <string name="selected_radius">10000</string>
+    <integer-array name="prices">
+
+    </integer-array>
+    <integer name="min_price">0</integer>
+    <integer name="max_price">4</integer>
+    <bool name="opennow">true</bool>
+    <string-array name="types">
+        <item>everything</item>
+        <item>restaurant</item>
+        <item>meal_delivery</item>
+        <item>meal_takeaway</item>
+        <item>bar</item>
+        <item>store</item>
+    </string-array>
+</resources>

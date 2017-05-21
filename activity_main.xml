@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.isabellaceriale.opening.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:background="#FF7043">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HokeyPoké"
+            android:typeface="sans"
+            android:textSize="50sp"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteY="73dp"
+            tools:layout_editor_absoluteX="136dp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/NowButton"
+            android:layout_width="151dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="#8BC34A"
+            android:onClick="goToMap"
+            android:textSize="17sp"
+            android:text="FIND POKÉ NOW"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <Button
+            android:id="@+id/LaterButton"
+            android:layout_margin="0dp"
+            android:layout_width="151dp"
+            android:layout_height="80dp"
+            tools:layout_editor_absoluteY="266dp"
+            tools:layout_editor_absoluteX="117dp"
+            android:background="#8BC34A"
+            android:textSize="17sp"
+            android:text="FIND POKÉ LATER"
+            android:textColor="@android:color/white"
+            android:onClick="goToMap"/>
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/poke"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
